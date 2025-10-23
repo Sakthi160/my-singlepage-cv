@@ -1,13 +1,9 @@
 import React from 'react';
 import './CV.css';
-
 function CV() {
   return (
-    
-    <div className="cv-container">
-      
-      {}
-      <header>
+     <div className="cv-container">
+       <header>
         <h1>Sakthi Hariharan V</h1>
         <hr />
         <p className="subtitle">Aspiring Full Stack Web Developer</p>
@@ -18,19 +14,14 @@ function CV() {
           <p><a href="mailto:sakthihariharan407@gmail.com">sakthihariharan407@gmail.com</a></p>
         </address>
       </header>
-
-      {}
-      <main>
-        {}
-        <section className="skills">
+    <main>
+    <section className="skills">
           <h2>Skills</h2>
           <p>
              React, node.js, javascript,Git, Github, Agile and Scrum methodologies
           </p>
         </section>
-
-        {}
-        <section className="education">
+    <section className="education">
           <h2>Education</h2>
           <article>
             <h3>SSMIET, DINDIGUL - B.E(CSE)</h3>
@@ -42,11 +33,8 @@ function CV() {
             </ul>
           </article>
         </section>
-
-        {}
-        <section className="experience">
-          <h2>Experience</h2>
-          
+    <section className="experience">
+    <h2>Experience</h2>
           <article>
             <h3>JP Morgan Chase, Texas- Financial Analyst</h3>
             <p className="date">March 2027 to March 2028</p>
@@ -63,15 +51,13 @@ function CV() {
               </ul>
             </p>
           </article>
-          
-          <article>
+    <article>
             <h3>Berkshire Hathaway, Washington - Business Analyst</h3>
             <p className="date">october 2028 to present</p>
             <ul>
               <li>Best Business executive</li>
               <li>Got appreciations from Warren Buffet for best negotiation skills</li>
-              
-            </ul>
+             </ul>
             <p className="skills-used">
               <strong>Skills:</strong><ul>
                 <li>Financial planning</li>
@@ -81,9 +67,7 @@ function CV() {
             </p>
           </article>
         </section>
-
-        {}
-        <section className="online-presence">
+       <section className="online-presence">
           <h2>Across the Internet</h2>
           <ul>
             <li><a href="https://github.com/Sakthi160" target="_blank" rel="noopener noreferrer">GitHub Profile</a></li>
@@ -94,5 +78,4 @@ function CV() {
     </div>
   );
 }
-
 export default CV;
