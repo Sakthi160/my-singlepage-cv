@@ -1,16 +1,11 @@
-/* CV.css */
-
-/* This styles the light gray background of the whole page */
 body {
-  font-family: sans-serif; /* A clean, modern font */
+  font-family: sans-serif; 
   line-height: 1.6;
   background-color: #f4f4f4; 
   display: flex;
   justify-content: center;
   padding: 20px;
 }
-
-/* This is the main white box with the black border */
 .cv-container {
   max-width: 900px;
   width: 100%;
@@ -19,81 +14,62 @@ body {
   border: 1px solid #000000;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-
-/* --- Header Styles --- */
 h1 {
   font-size: 2.8rem;
   font-weight: 600;
   margin: 0 0 10px 0;
 }
-
 hr {
   border: none;
   border-top: 2px solid #000;
   margin-bottom: 20px;
 }
-
 .subtitle {
   font-size: 1.25rem;
   font-weight: 500;
-  color: #008080; /* The teal color from the screenshot */
+  color: #008080; 
   margin: 0;
   margin-bottom: 20px;
 }
-
 address {
-  font-style: normal; /* Removes default italics */
+  font-style: normal; 
 }
-
 address p {
   margin: 4px 0;
 }
-
 address a {
   color: #000;
   text-decoration: none;
 }
-
-/* --- Main Section Styles --- */
 h2 {
   font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 15px;
 }
-
-/* Styles for each job/education item */
 article {
   margin-bottom: 25px;
 }
-
 h3 {
   font-size: 1.15rem;
   font-weight: 700;
   margin: 0 0 4px 0;
 }
-
 .date {
   font-size: 1rem;
   color: #333;
   margin: 0 0 10px 0;
 }
-
-/* Styles for the bullet points */
 ul {
   padding-left: 25px;
   margin-top: 10px;
 }
-
 li {
   margin-bottom: 5px;
 }
-
 .skills-used {
   font-size: 0.95rem;
   margin-top: 10px;
 }
-
-/* --- Links Section --- */
 .online-presence a {
   color: #007bff;
   text-decoration: none;
